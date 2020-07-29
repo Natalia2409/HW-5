@@ -9,6 +9,9 @@ window.addEventListener('DOMContentLoaded', () => {
 		let func1Length = document.getElementById('length').value;
 		let func1Min = document.getElementById('min').value;
 		let func1Max = document.getElementById('max').value;
+		func1Length = Number(func1Length);
+		func1Min = Number(func1Min);
+		func1Max = Number(func1Max);
 		let newArray = [];
 		if (func1Min > func1Max)  {
 			newArray.push('Друге число менше, ніж перше!');
