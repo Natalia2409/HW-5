@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+header {
+	padding: 40px 0 40px 0;
+	min-height: 850px;
+	background: url('../img/bg_1.jpg') center center/cover no-repeat;
+}
+
+.logo img {
+	width: 90px;
+	height: 90px;
+}
+
+.header__top {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 50px;
+
+}
+
+.hw_name {
+	font-family: 'Krona One', sans-serif;
+	font-size: 30px;
+	color: #520e41;
+}
+
+.func_1 {
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+	width: 1100px;
+	height: 150px;
+	border-radius: 10px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+.func1_input {
+	margin-top: 10px;
+}
+
+.func_1 input {
+	width: 220px;
+	height: 30px;
+}
+
+.func_1 button {
+	width: 150px;
+	height: 30px;
+	background-color: #4680e0;
+	color: white;
+	border-radius: 5px;
+}
+
+.func_1 button:focus {
+	outline: none;
+}
+
+#func1_result {
+	width: 1000px;
+	min-height: 50px;
+	background-color: #dde4f0;
+	border-radius: 10px;
+	margin-top: 15px;
+	overflow-wrap: break-word;
+}
+
+.func2_input input, .func3_input input, .func4_input input, .func5_input input, .func6_input input, .func7_input input, .func8_input inputб .func9_input input {
+	width: 350px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+#func2_btn, #func3_btn, #func4_btn, #func5_btn, #func6_btn, #func7_btn, #func8_btn, #func9_btn {
+	width: 150px;
+	height: 30px;
+	background-color: #4680e0;
+	color: white;
+	border-radius: 5px;
+}
+
+#func2_btn:focus, #func3_btn:focus, #func4_btn:focus, #func5_btn:focus, #func6_btn:focus, #func7_btn:focus, #func8_btn:focusб #func9_btn:focus {
+	outline: none;
+}
+
+#func2_result, #func3_result, #func4_result, #func5_result, #func6_result, #func7_result, #func8_result, #func9_result {
+	width: 1000px;
+	min-height: 50px;
+	background-color: #dde4f0;
+	border-radius: 10px;
+	margin-top: 15px;
+	overflow-wrap: break-word;
+}
